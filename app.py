@@ -1,5 +1,6 @@
 import streamlit as st
 import telebot
+import os
 
 # Set up Telegram Bot
 recipient_user_id = os.environ['RECIPIENT_USER_ID']
